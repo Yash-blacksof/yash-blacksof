@@ -1,0 +1,50 @@
+.container {
+  display: flex; /* here I tried different display properties like flex, block, inline-block and observed changes */
+  justify-content: space-between; /* here I tried properties like flex-start, flex-end, center etc and observed changes */
+  align-items: center; /* here I tried properties like flex-start, flex-end, center etc */
+  padding: 0px;
+  background-color: black;
+  flex-wrap: nowrap; /* here I tried to implement wrap and now-wrap property and observed changes */
+  height: 100vh;
+}
+
+.flex-item-1 {
+  flex: 1; /* here I tried different numbers to observe how will it impact the item 1 conatiner */
+  margin-top: 200px;
+  margin-left: 10px;
+  max-width: 200px;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  max-height: 100px; /* here I provided a max-height and tried to implement changes to height */
+  min-height: 50px;
+  height: 40px;
+}
+
+.flex-item-2 {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+}
+
+.flex-item-3 {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #008000;
+  color: white;
+  text-align: center;
+}
+
+.flex-item-4 {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffff00;
+  color: black;
+  text-align: center;
+}
